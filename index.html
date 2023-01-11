@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="discriptionBox">
+            <div class="discription">
+                This is a simple "Guess the Number" game. You can play in two mods: <br>
+                1. You should try to guess a number set by the computer <br>
+                2. The computer tries to guess the number you have set <br>
+                You can switch modes by clicking on the "Switch mode"
+                button. Enjoy the game!
+            </div>
+            <div id="github-button">
+                <a class="github-button" href="https://github.com/DariaBab" data-color-scheme="no-preference: light; light: dark; dark: dark_high_contrast;"
+                          aria-label="Follow @DariaBab on GitHub">@DariaBab</a>
+            </div>
+        </div>
+        <div class="game">
+            <div class="container">
+                <div class="container-forms">
+             <div class="container-info">
+                <div class="info-item">
+                  <div class="table">
+                    <div class="table-cell">
+                      <p class="comment2">
+                        Enter the maximum number. The computer will try to guess you number from 1 to the maximum
+                      </p>
+                      <div class="btn" id="red">
+                        Switch mode
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="table">
+                    <div class="table-cell">
+                      <p class="comment">
+                        Enter the maximum number. Try to guess a number from 1 to the maximum 
+                      </p>
+                      <div class="btn" id="blue">
+                        Switch mode
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="container-form">
+                <div class="form-item user-guess">
+                  <div class="table">
+                    <div class="table-cell">
+                      <input name="max-number" placeholder="Max number" type="text" class="max" autocomplete="off"/>
+                      <div class="btn btnMax">
+                        Start
+                      </div>
+                      <input name="try-to-guess" placeholder="Try to guess" type="text" class="answer" autocomplete="off" />
+                      <div class="btn btnAnswer">
+                        Let's try
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-item computer-guess">
+                  <div class="table">
+                    <div class="table-cell">
+                      <input name="max-number" placeholder="Max number" type="text" class="max2" autocomplete="off"/>
+                      <div class="btn btnMax2">
+                        Start
+                      </div>
+                      <div class="btn greater">
+                        Greater
+                      </div>
+                      <div class="btn yes">
+                        Yes!
+                      </div>
+                      <div class="btn smaller">
+                        Smaller
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery-3.6.1.min.js"></script> 
+      <script  src="./script.js"></script>
+    
+</body>
+</html>
